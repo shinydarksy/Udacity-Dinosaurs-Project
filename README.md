@@ -1,6 +1,7 @@
 # Udacity-Dinosaurs-Project
 To start the project run:
 npm install
-
+Node server.js
 # Open browser with 
-[1]: http://google.com/ "Google"
+
+http://localhost:3000/
