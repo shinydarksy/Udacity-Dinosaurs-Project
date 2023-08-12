@@ -69,9 +69,9 @@ function displayGrid(dinos, human) {
       const fact = getRandomFact(tile);
       return `
         <div class="grid-item">
-          <h3 class="species">${tile.species || tile.name}</h3>
+          <h3>${tile.species || tile.name}</h3>
           <img src="images/${tile.species || "human"}.png">
-          <p class="fact">${fact ? fact : ""}</p>
+          <p>${fact ? fact : ""}</p>
         </div>
       `;
     });
