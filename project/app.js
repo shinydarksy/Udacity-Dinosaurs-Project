@@ -1,5 +1,5 @@
 import Dinosaur from "./Dinosaur.js";
-const dinoData = await fetch('/dino.json');
+const dinoData = await fetch("/dino.json");
 const dinoJSON = await dinoData.json();
 const ALL_DINOSAURS = dinoJSON;
 
