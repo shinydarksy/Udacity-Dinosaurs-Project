@@ -28,4 +28,4 @@ class Dinosaur {
 }
 
 
-export default Dinosaur
+export default Dinosaur;
